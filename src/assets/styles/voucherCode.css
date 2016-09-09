@@ -1,0 +1,63 @@
+.voucher-code {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.72222;
+    color: #9AB83D;
+    width: 100%;
+}
+
+.voucher-code input {
+    border-radius: 6px;
+    text-align: left;
+    margin-right: 5px;
+    border: 1px solid #bdc3c7;
+    padding-left: 10px;
+}
+
+.voucher-code :focus {
+    box-shadow: 0 0 5px #9AB83D;
+    border-color: #9AB83D;
+    outline: thin;
+}
+
+.voucher-code .box {
+    display : flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.voucher-code .error {
+    color: #E74C3C;
+}
+
+.voucher-code .error .text {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.voucher-code .price {
+    text-align: right;
+}
+
+.voucher-code .box input {
+    width: 40%;
+    color: #8C8C8C;
+    font-size: 13px;
+}
+
+.voucher-code .box input[disabled] {
+    background-color: #E2E5DC;
+}
+
+
+.voucher-code .box .icon-box {
+    width: 10%;
+}
+
+
+.voucher-code .box .price{
+    width: 50%;
+}
+
+

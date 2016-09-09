@@ -1,0 +1,24 @@
+.facebook-button {
+
+}
+
+.facebook-button .btn-primary {
+    width: 100%;
+    color: #ffffff;
+    background-color: #3B5998;
+    border-color: #3B5998;
+}
+
+@media (max-width: 400px) {
+
+    .facebook-button .btn {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .facebook-button .btn {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sayurbox",
+  "version": "0.0.1",
+  "authors": [
+    "Andy wiranata wijaya <andywiranatawijaya@gmail.com>"
+  ],
+  "dependencies": {
+      "bootstrap": "^3.3.6",
+      "flat-ui": "^2.3.0"
+  }
+}

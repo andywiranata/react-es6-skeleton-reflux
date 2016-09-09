@@ -1,0 +1,22 @@
+
+.panel-success > .panel-heading {
+    color: white;
+    background-color: #9AB83D;
+    border-color: #d6e9c6;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 50px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    font-weight: bold;
+}
+
+.panel-title span {
+    margin-right: 10px;
+}

@@ -1,0 +1,87 @@
+.notification-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 98;
+}
+.notification-text {
+    font-size: 14px;
+    display: block;
+    padding: 8px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #E74C3C;
+
+    /*-webkit-animation: initiate 350ms ease;*/
+    /*-moz-animation: initiate 350ms ease;*/
+    /*-o-animation: initiate 350ms ease;*/
+    /*animation: initiate 350ms ease;*/
+}
+
+.notification-text-hide {
+    -webkit-transition: ease 350ms;
+    -moz-transition: ease 350ms;
+    -o-transition: ease 350ms;
+    transition: ease 350ms;
+
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.notification-text-show {
+    -webkit-transition: ease 350ms;
+    -moz-transition: ease 350ms;
+    -o-transition: ease 350ms;
+    transition: ease 350ms;
+
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+/*@-webkit-keyframes initiate {*/
+    /*0% {*/
+        /*-webkit-transform:translateY(-100%);*/
+    /*}*/
+    /*50% {*/
+        /*-webkit-transform:translateY(-50%);*/
+    /*}*/
+    /*100% {*/
+        /*-webkit-transform:translateY(0%);*/
+    /*}*/
+/*}*/
+/*@-moz-keyframes initiate {*/
+    /*0% {*/
+        /*-moz-transform:translateY(-100%);*/
+    /*}*/
+    /*50% {*/
+        /*-moz-transform:translateY(-50%);*/
+    /*}*/
+    /*100% {*/
+        /*-moz-transform:translateY(0%);*/
+    /*}*/
+/*}*/
+/*@-o-keyframes initiate {*/
+    /*0% {*/
+        /*-o-transform:translateY(-100%);*/
+    /*}*/
+    /*50% {*/
+        /*-o-transform:translateY(-50%);*/
+    /*}*/
+    /*100% {*/
+        /*-o-transform:translateY(0%);*/
+    /*}*/
+/*}*/
+/*@keyframes initiate {*/
+    /*0% {*/
+        /*transform:translateY(-100%);*/
+    /*}*/
+    /*50% {*/
+        /*transform:translateY(-50%);*/
+    /*}*/
+    /*100% {*/
+        /*transform:translateY(0%);*/
+    /*}*/
+/*}*/

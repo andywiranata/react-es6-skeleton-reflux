@@ -1,0 +1,115 @@
+/* import font  */
+@font-face {
+    font-family: skinny-regular;
+    src: url(../fonts/skinny/skinny-regular.otf);
+}
+
+/* Main.css */
+
+html,body{
+    min-height: 600px;
+}
+.spacer-normal{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.spacer-normal-h{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.root-content{
+    min-height: 300px;
+}
+#app{
+    background-color: #f2f0f3;
+}
+/*.col-centered{*/
+    /*float: none;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+.circle-fa i{
+    color: #ffffff;
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    margin: 4px 16px;
+    vertical-align: middle;
+}
+
+.circle-fa-footer {
+}
+
+.circle-fa-footer i {
+    background-color: #9AB83D;
+}
+
+.circle-fa-footer i.credit-card{
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.loading-label{
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+
+/**
+
+    fort testing only aka debug using color background
+**/
+.testDebugRedColor{
+    background-color: red;
+}
+
+.testDebugGreenColor{
+    background-color: green;
+}
+
+.primaryColor {
+    /*background-color: #795548;*/
+    background-color: #211e1e;
+    color:  #ffffff;
+}
+
+.loading-color{
+    color: crimson;
+}
+
+.anim-enter {
+    opacity: 0.01;
+}
+
+.anim-enter.anim-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.anim-leave {
+    opacity: 1;
+}
+
+.anim-leave.anim-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+.logo-color {
+    color: #9AB83D;
+}
+
+.main-loader{
+    position: fixed;
+    color: crimson;
+    z-index: -9999;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}

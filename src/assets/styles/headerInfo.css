@@ -1,0 +1,11 @@
+.header-info {
+    z-index: 90;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    display: block;
+    padding: 8px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #E74C3C;
+}

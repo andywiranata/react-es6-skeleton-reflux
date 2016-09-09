@@ -1,0 +1,46 @@
+.info {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color: #8C8C8C;
+    width: 100%;
+    text-align: center;
+}
+
+.info .separator {
+    padding-top: 30px;
+}
+
+.info .line {
+    border-bottom: 1px solid  #9AB83D;
+}
+
+.info .info-title {
+    font-family: skinny-regular;
+    font-size: 35px;
+}
+
+.info .info-sub-title {
+    font-family: skinny-regular;
+    font-size: 25px;
+}
+
+.info .wording {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.info .wording a {
+    color: inherit;
+}
+
+.info .wording a:hover {
+    color: #9AB83D;
+}
+
+.info .payment {
+    color: inherit;
+    text-align: left;
+}
+
+.info .wording .account-info {
+    padding-left: 15px;
+}

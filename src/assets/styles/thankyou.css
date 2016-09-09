@@ -1,0 +1,149 @@
+.thanks {
+    /*font-family: skinny-regular;*/
+    margin-top: 20px;
+    color: #8C8C8C;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thanks img {
+    padding-bottom: 10px;
+}
+
+.thanks .wording {
+    vertical-align: bottom;
+}
+
+.thanks .wording table {
+    width: 100%;
+}
+
+.thanks .wording th {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #9AB83D;
+    border-top: 1px solid #9AB83D;
+}
+
+.thanks .wording td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+.thanks .content-info {
+    width: 100%;
+    color: #8C8C8C;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.thanks .content-info .cust-name {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.thanks .content-info .cust-info {
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.thanks .line {
+    border-bottom: 1px solid #9AB83D;
+}
+
+.thanks .txt-center {
+    text-align: center;
+}
+
+.thanks .item-name {
+}
+
+.thanks .item-price {
+    text-align: right;
+}
+
+.thanks .delivery-fee {
+    text-align: right;
+    border-top: 1px solid #9AB83D;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #9AB83D;
+}
+.thanks .delivery-fee-free {
+    color: #E74C3C;
+    text-align: right;
+    border-top: 1px solid #9AB83D;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+.thanks .total {
+    color:#9AB83D;
+    text-align: right;
+    font-weight: bold;
+    border-top: 1px solid #9AB83D;
+    border-bottom: 1px solid #9AB83D;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.thanks .loading-parent {
+    color: crimson;
+    min-height: 200px;
+}
+
+.thanks .loading-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@media (max-width: 435px) {
+    .thanks .loading-child {
+        position: inherit;
+    }
+}
+
+@media (max-width: 321px) {
+    .thanks img {
+        width: 150px;
+        height: 167px;
+    }
+
+    .thanks dd, dt {
+        font-size: 12px;
+    }
+
+    .thanks ol, li {
+        font-size: 12px;
+    }
+
+    .thanks .wording {
+        font-size: 12px;
+    }
+
+    .thanks .item-name {
+        font-size: 11px;
+    }
+
+    .thanks .item-price {
+        font-size: 11px;
+    }
+
+    .thanks .loading-parent {
+        min-height: 100px;
+    }
+
+    .thanks .loading-child {
+        position: inherit;
+    }
+}
