@@ -32,7 +32,7 @@ class Home extends React.Component {
         return (
             <div className="container">
                 <h1>Home Area</h1>
-                <ItemList { ...this.state } />
+
             </div>
         );
     }
